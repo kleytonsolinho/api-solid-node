@@ -1,3 +1,9 @@
 {
-  "extends": "@kleytonsolinho/eslint-config/node"
+  "extends": [
+    "@kleytonsolinho/eslint-config/node"
+  ],
+  "rules": {
+    "calmecase": "off",
+    "no-useless-constructor": "off"
+  }
 }
