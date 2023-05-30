@@ -1,17 +1,10 @@
-import { UsersRepository } from '@/repositories/users-repository'
-import { User } from '@prisma/client'
+import type {
+  RegisterUseCaseRequest,
+  RegisterUseCaseResponse,
+} from '@/http/data/dtos/register-dto'
+import type { UsersRepository } from '@/repositories/users-repository'
 import { hash } from 'bcryptjs'
 import { UserAlreadyExistsError } from './errors/user-already-exists'
-
-interface RegisterUseCaseRequest {
-  name: string
-  email: string
-  password: string
-}
-
-interface RegisterUseCaseResponse {
-  user: User
-}
 
 export class RegisterUseCase {
   constructor(private usersRepository: UsersRepository) {}
