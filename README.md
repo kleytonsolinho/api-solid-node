@@ -1,4 +1,4 @@
-# 🚀 API SOLID in NodeJS with Units and e2e Tests
+# 🚀 API SOLID in NodeJS (Postgres) with Units and e2e Tests
 
 Gympass style app.
 
