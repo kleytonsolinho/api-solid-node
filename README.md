@@ -1,4 +1,4 @@
-# 🚀 API SOLID with TDD in NodeJS
+# 🚀 API SOLID in NodeJS with Units and e2e Tests
 
 Gympass style app.
 
@@ -21,12 +21,12 @@ Gympass style app.
 - [x] O usuário não pode fazer 2 check-ins no mesmo dia.
 - [x] O usuário não pode fazer check-ins se não estiver perto (100m) de uma academia.
 - [x] O Check-in só pode ser validado até 20 minutos após criado.
-- [ ] O Check-in só pode ser validado por administradores.
-- [ ] A academia só pode ser cadastrada por administradores.
+- [x] O Check-in só pode ser validado por administradores.
+- [x] A academia só pode ser cadastrada por administradores.
 
 ## (RNFs) Requisitos Não Funcionais
 
 - [x] A senha do usuário precisa estar criptografada.
 - [x] Os dados da aplicação precisam estar persistidos em um banco PostgreSQL.
 - [x] Todas as listas de dados precisam estar paginadas por 20 itens por páginas.
-- [ ] O usuário deve ser identificado por um JWT (JSON Web Token)
+- [x] O usuário deve ser identificado por um JWT (JSON Web Token)
